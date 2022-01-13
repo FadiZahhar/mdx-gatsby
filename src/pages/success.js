@@ -6,7 +6,7 @@ const Success = () => {
     <Layout>
       <section className="success-page">
         <div className="page-center">
-          <h2>your submission was recieved !</h2>
+          <h2>your submission was recieved ! </h2>
           <Link to="/" className="btn">
             back home
           </Link>
