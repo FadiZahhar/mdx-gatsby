@@ -1,0 +1,45 @@
+---
+title: Automated XD
+slug: automated-xd
+image: ./images/html-1.png
+date: 2022-01-13
+author: Fadi Nicolas Zahhar
+category: Adobe XD
+readTime: 50
+embeddedImages:
+  - ./images/html-1.png
+  - ./images/html-2.png
+  - ./images/html-3.png
+---
+
+import { Link } from 'gatsby'
+import { GatsbyImage, getImage } from 'gatsby-plugin-image'
+
+<GatsbyImage
+  image={getImage(props.embeddedImages[0])}
+  alt="random stuff"
+  className="first-inline-img"
+/>
+
+### 1.1 welcome to the course
+<iframe src="https://player.vimeo.com/video/648031499" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+### 2.1 quick adobe xd tutorial
+<iframe src="https://player.vimeo.com/video/648031836" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+### 2.2 adjusting the position size and rotation of objects
+<iframe src="https://player.vimeo.com/video/648032155" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+### 2.3 staggering animation in adobe xd
+<iframe src="https://player.vimeo.com/video/648032437" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+### 2.4 applying masks to auto animations
+<iframe src="https://player.vimeo.com/video/648032683" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+### 2.5 animating a more complex ui
+<iframe src="https://player.vimeo.com/video/648033045" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+
+<Link to="/posts" className="btn center-btn">
+  all posts
+</Link>
