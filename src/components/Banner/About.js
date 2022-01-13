@@ -7,9 +7,9 @@ import styled from 'styled-components'
 const About = () => {
   return (
     <Wrapper>
-      <Title title="about me" />
+      <Title title="about us" />
       <StaticImage
-        src="../../assets/banner-about.jpeg"
+        src="../../assets/mylogo.jpeg"
         layout="fixed"
         width={100}
         height={100}
@@ -17,7 +17,7 @@ const About = () => {
         className="img"
       />
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, eligendi.
+        Pro-solutions.net is a company that provides best practices in delivering software solutions, web and mobile applications as minimum valuable products.
       </p>
       <SocialLinks styleClass="banner-icons"></SocialLinks>
     </Wrapper>
