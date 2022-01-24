@@ -1,0 +1,76 @@
+---
+title: CSS Colors
+slug: css-colors
+image: ./images/CSS-Course-For-Beginners.jpeg
+date: 2022-01-24
+author: Fadi Nicolas Zahhar
+category: CSS
+readTime: 50
+embeddedImages:
+  - ./images/CSS-Course-For-Beginners.jpeg
+---
+
+import { Link } from 'gatsby'
+import { GatsbyImage, getImage } from 'gatsby-plugin-image'
+
+<GatsbyImage
+  image={getImage(props.embeddedImages[0])}
+  alt="random stuff"
+  className="first-inline-img"
+/>
+
+### CSS Colors
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="CSS Colors" src="https://codepen.io/FadiZahhar/embed/abVoExm?default-tab=css%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/FadiZahhar/pen/abVoExm">
+  CSS Colors</a> by Fadi Nicolas Zahhar (<a href="https://codepen.io/FadiZahhar">@FadiZahhar</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+### RGB
+
+RGB (Red, Green, Blue) values are more archaically but universally used across different industries including printing and publishing. In the past it was more widely used in websites than it is today.
+
+### RGBA
+RGBA (Red, Green, Blue, Alpha) is used for making a colour transparent. The value for A (alpha) is from 0, completely transparent, to 1 completely opaque.
+
+
+### HEX
+hex, is a more recent quick easy value used exclusively for websites and applications.
+
+### How HEX work
+
+Hex color codes start with a pound sign or hashtag (#) and are followed by six letters and/or numbers. The first two letters/numbers refer to red, the next two refer to green, and the last two refer to blue. The color values are defined in values between 00 and FF (instead of from 0 to 255 in RGB). 
+
+Numbers are used when the value is 1-9. Letters are used when the value is higher than 9. For example:
+
+A=10
+
+B=11
+
+C=12
+
+D=13
+
+E=14
+
+F=15
+
+ 
+
+To get a hexadecimal color, follow these three steps:
+
+Multiply the first number by 16.
+
+Multiply the second number by 1.
+
+Add the two totals together. 
+
+### Reference to choose best colors
+
+https://coolors.co/
+
+
+<Link to="/posts" className="btn center-btn">
+  all posts
+</Link>
