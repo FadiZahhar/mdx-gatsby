@@ -17,7 +17,7 @@ const About = () => {
         className="img"
       />
       <p>
-        Pro-solutions.net is a company that provides best practices in delivering software solutions, web and mobile applications as minimum valuable products.
+        Pro-solutions.net is a company that provides best practices in delivering software solutions, web and mobile applications as minimum viable products.
       </p>
       <SocialLinks styleClass="banner-icons"></SocialLinks>
     </Wrapper>
